@@ -4,7 +4,7 @@
         width: 100%;
         overflow: hidden;
         position: relative;
-        background: #f7f7f7; /* Light gray */
+        background: gray; /* Light gray */
         border-bottom: 2px solid #ddd;
     }
 
