@@ -4,7 +4,7 @@
         width: 100%;
         overflow: hidden;
         position: relative;
-        background: gray; /* Light gray */
+        background: transparent; /* Light gray */
         border-bottom: 2px solid #ddd;
     }
 
@@ -27,7 +27,7 @@
 
     /* Links */
     .marquee-content a {
-        color: #0056b3;
+        color: #8ffff6;
         text-decoration: none;
         margin-left: 15px;
     }
