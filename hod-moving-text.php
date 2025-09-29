@@ -1,11 +1,14 @@
 <div class="infinite-marquee">
     <div class="marquee-content">
         <label class="custom-moveing" style="color:#333; font-weight: 400; font-size:20px;">
-            <img src="https://hod.gurenosay.org/wp-content/uploads/2025/09/animation.svg">
+           <img src="https://hod.gurenosay.org/wp-content/uploads/2025/09/animation.svg">
            Lights in your sight
            <img src="https://hod.gurenosay.org/wp-content/uploads/2025/09/animation.svg">
            Sparkles in your life
            <img src="https://hod.gurenosay.org/wp-content/uploads/2025/09/animation.svg">
+            Lights in your sight
+           <img src="https://hod.gurenosay.org/wp-content/uploads/2025/09/animation.svg">
+           Sparkles in your life
         </label>
     </div>
     <div class="marquee-content" aria-hidden="true">
@@ -15,7 +18,9 @@
            <img src="https://hod.gurenosay.org/wp-content/uploads/2025/09/animation.svg">
            Sparkles in your life
            <img src="https://hod.gurenosay.org/wp-content/uploads/2025/09/animation.svg">
-
+            Lights in your sight
+           <img src="https://hod.gurenosay.org/wp-content/uploads/2025/09/animation.svg">
+           Sparkles in your life
 
         </label>
     </div>
