@@ -1,54 +1,73 @@
 <div class="infinite-marquee">
-    <div class="marquee-content">
-        <label class="custom-moveing" style="color:#333; font-weight: 400; font-size:20px;">
-           <img src="https://hod.gurenosay.org/wp-content/uploads/2025/09/animation.svg">
-           Lights in your sight
-           <img src="https://hod.gurenosay.org/wp-content/uploads/2025/09/animation.svg">
-           Sparkles in your life
-           <img src="https://hod.gurenosay.org/wp-content/uploads/2025/09/animation.svg">
-            Lights in your sight
-           <img src="https://hod.gurenosay.org/wp-content/uploads/2025/09/animation.svg">
-           Sparkles in your life
-        </label>
-    </div>
     <div class="marquee-content" aria-hidden="true">
-        <label style="color:#333; font-weight: 400; font-size:20px;">
-            <img src="https://hod.gurenosay.org/wp-content/uploads/2025/09/animation.svg">
-           Lights in your sight
-           <img src="https://hod.gurenosay.org/wp-content/uploads/2025/09/animation.svg">
-           Sparkles in your life
-           <img src="https://hod.gurenosay.org/wp-content/uploads/2025/09/animation.svg">
+        <span class="marquee-item">
+            <img src="https://hod.gurenosay.org/wp-content/uploads/2025/09/animation.svg" alt="star">
             Lights in your sight
-           <img src="https://hod.gurenosay.org/wp-content/uploads/2025/09/animation.svg">
-           Sparkles in your life
-
-        </label>
+        </span>
+        <span class="marquee-item">
+            <img src="https://hod.gurenosay.org/wp-content/uploads/2025/09/animation.svg" alt="star">
+            Sparkles in your life
+        </span>
+        <span class="marquee-item">
+            <img src="https://hod.gurenosay.org/wp-content/uploads/2025/09/animation.svg" alt="star">
+            Lights in your sight
+        </span>
+        <span class="marquee-item">
+            <img src="https://hod.gurenosay.org/wp-content/uploads/2025/09/animation.svg" alt="star">
+            Sparkles in your life
+        </span>
+        <span class="marquee-item">
+            <img src="https://hod.gurenosay.org/wp-content/uploads/2025/09/animation.svg" alt="star">
+            Lights in your sight
+        </span>
+        <span class="marquee-item">
+            <img src="https://hod.gurenosay.org/wp-content/uploads/2025/09/animation.svg" alt="star">
+            Sparkles in your life
+        </span>
+        <span class="marquee-item">
+            <img src="https://hod.gurenosay.org/wp-content/uploads/2025/09/animation.svg" alt="star">
+            Lights in your sight
+        </span>
+        <span class="marquee-item">
+            <img src="https://hod.gurenosay.org/wp-content/uploads/2025/09/animation.svg" alt="star">
+            Sparkles in your life
+        </span>
     </div>
 </div>
 
 <style>
-.custom-moving {
-    font-family: "Poppin", sans-serif !important;
-}
 .infinite-marquee {
     width: 100%;
     overflow: hidden;
     display: flex;
     white-space: nowrap;
     box-sizing: border-box;
-    background: transparent; /* Change as needed */
+    background: transparent;
+    align-items: center;
+    height: 50px; /* Adjust height as needed */
 }
 
 .marquee-content {
-    display: inline-block;
+    display: inline-flex;
     animation: marquee 30s linear infinite;
-    padding-right: 10px; /* Adjust spacing between copies */
+    align-items: center;
 }
 
-.marquee-content label {
+.marquee-item {
+    display: inline-flex;
+    align-items: center;
+    color: #333;
+    font-weight: 400;
+    font-size: 20px;
     font-family: 'Futura PT Medium';
+    padding-right: 50px;
+    white-space: nowrap;
+}
+
+.marquee-item img {
+    vertical-align: middle;
+    margin-right: 8px; /* Space between icon and text */
     display: inline-block;
-    padding-right: 50px; /* Adjust spacing between items */
 }
 
 @keyframes marquee {
