@@ -1,36 +1,71 @@
 <div class="infinite-marquee">
     <div class="marquee-content" aria-hidden="true">
+        <!-- Original Content -->
         <span class="marquee-item">
             <img src="https://hod.gurenosay.org/wp-content/uploads/2025/09/animation.svg" alt="star">
-            Lights in your sight
+            Innovative Event Designs
         </span>
         <span class="marquee-item">
             <img src="https://hod.gurenosay.org/wp-content/uploads/2025/09/animation.svg" alt="star">
-            Sparkles in your life
+            Planning Servic
         </span>
         <span class="marquee-item">
             <img src="https://hod.gurenosay.org/wp-content/uploads/2025/09/animation.svg" alt="star">
-            Lights in your sight
+            Innovative Event Designs
         </span>
         <span class="marquee-item">
             <img src="https://hod.gurenosay.org/wp-content/uploads/2025/09/animation.svg" alt="star">
-            Sparkles in your life
+            Planning Servic
         </span>
         <span class="marquee-item">
             <img src="https://hod.gurenosay.org/wp-content/uploads/2025/09/animation.svg" alt="star">
-            Lights in your sight
+            Innovative Event Designs
         </span>
         <span class="marquee-item">
             <img src="https://hod.gurenosay.org/wp-content/uploads/2025/09/animation.svg" alt="star">
-            Sparkles in your life
+            Planning Servic
         </span>
         <span class="marquee-item">
             <img src="https://hod.gurenosay.org/wp-content/uploads/2025/09/animation.svg" alt="star">
-            Lights in your sight
+            Innovative Event Designs
         </span>
         <span class="marquee-item">
             <img src="https://hod.gurenosay.org/wp-content/uploads/2025/09/animation.svg" alt="star">
-            Sparkles in your life
+            Planning Servic
+        </span>
+        
+        <!-- Duplicated Content for Seamless Loop -->
+        <span class="marquee-item">
+            <img src="https://hod.gurenosay.org/wp-content/uploads/2025/09/animation.svg" alt="star">
+            Innovative Event Designs
+        </span>
+        <span class="marquee-item">
+            <img src="https://hod.gurenosay.org/wp-content/uploads/2025/09/animation.svg" alt="star">
+            Planning Servic
+        </span>
+        <span class="marquee-item">
+            <img src="https://hod.gurenosay.org/wp-content/uploads/2025/09/animation.svg" alt="star">
+            Innovative Event Designs
+        </span>
+        <span class="marquee-item">
+            <img src="https://hod.gurenosay.org/wp-content/uploads/2025/09/animation.svg" alt="star">
+            Planning Servic
+        </span>
+        <span class="marquee-item">
+            <img src="https://hod.gurenosay.org/wp-content/uploads/2025/09/animation.svg" alt="star">
+            Innovative Event Designs
+        </span>
+        <span class="marquee-item">
+            <img src="https://hod.gurenosay.org/wp-content/uploads/2025/09/animation.svg" alt="star">
+            Planning Servic
+        </span>
+        <span class="marquee-item">
+            <img src="https://hod.gurenosay.org/wp-content/uploads/2025/09/animation.svg" alt="star">
+            Innovative Event Designs
+        </span>
+        <span class="marquee-item">
+            <img src="https://hod.gurenosay.org/wp-content/uploads/2025/09/animation.svg" alt="star">
+            Planning Servic
         </span>
     </div>
 </div>
@@ -45,12 +80,15 @@
     background: transparent;
     align-items: center;
     height: 50px; /* Adjust height as needed */
+    position: relative;
 }
 
 .marquee-content {
     display: inline-flex;
     animation: marquee 30s linear infinite;
     align-items: center;
+    /* Prevent the animation from being choppy on some browsers */
+    will-change: transform;
 }
 
 .marquee-item {
@@ -62,6 +100,7 @@
     font-family: 'Futura PT Medium';
     padding-right: 50px;
     white-space: nowrap;
+    flex-shrink: 0;
 }
 
 .marquee-item img {
@@ -77,5 +116,27 @@
     100% {
         transform: translateX(-50%);
     }
+}
+
+/* Optional: Add a fade effect on the edges for better visual */
+.infinite-marquee::before,
+.infinite-marquee::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 50px;
+    z-index: 2;
+    pointer-events: none;
+}
+
+.infinite-marquee::before {
+    left: 0;
+    background: linear-gradient(to right, rgba(255,255,255,1), rgba(255,255,255,0));
+}
+
+.infinite-marquee::after {
+    right: 0;
+    background: linear-gradient(to left, rgba(255,255,255,1), rgba(255,255,255,0));
 }
 </style>
