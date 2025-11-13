@@ -7,7 +7,7 @@
         </span>
         <span class="marquee-item">
             <img src="https://hod.gurenosay.org/wp-content/uploads/2025/09/animation.svg" alt="star">
-            Planning Servic
+            Planning Services
         </span>
         <span class="marquee-item">
             <img src="https://hod.gurenosay.org/wp-content/uploads/2025/09/animation.svg" alt="star">
@@ -15,7 +15,7 @@
         </span>
         <span class="marquee-item">
             <img src="https://hod.gurenosay.org/wp-content/uploads/2025/09/animation.svg" alt="star">
-            Planning Servic
+            Planning Services
         </span>
         <span class="marquee-item">
             <img src="https://hod.gurenosay.org/wp-content/uploads/2025/09/animation.svg" alt="star">
@@ -23,7 +23,7 @@
         </span>
         <span class="marquee-item">
             <img src="https://hod.gurenosay.org/wp-content/uploads/2025/09/animation.svg" alt="star">
-            Planning Servic
+            Planning Services
         </span>
         <span class="marquee-item">
             <img src="https://hod.gurenosay.org/wp-content/uploads/2025/09/animation.svg" alt="star">
@@ -31,7 +31,7 @@
         </span>
         <span class="marquee-item">
             <img src="https://hod.gurenosay.org/wp-content/uploads/2025/09/animation.svg" alt="star">
-            Planning Servic
+            Planning Services
         </span>
         
         <!-- Duplicated Content for Seamless Loop -->
@@ -41,7 +41,7 @@
         </span>
         <span class="marquee-item">
             <img src="https://hod.gurenosay.org/wp-content/uploads/2025/09/animation.svg" alt="star">
-            Planning Servic
+            Planning Services
         </span>
         <span class="marquee-item">
             <img src="https://hod.gurenosay.org/wp-content/uploads/2025/09/animation.svg" alt="star">
@@ -49,7 +49,7 @@
         </span>
         <span class="marquee-item">
             <img src="https://hod.gurenosay.org/wp-content/uploads/2025/09/animation.svg" alt="star">
-            Planning Servic
+            Planning Services
         </span>
         <span class="marquee-item">
             <img src="https://hod.gurenosay.org/wp-content/uploads/2025/09/animation.svg" alt="star">
@@ -57,7 +57,7 @@
         </span>
         <span class="marquee-item">
             <img src="https://hod.gurenosay.org/wp-content/uploads/2025/09/animation.svg" alt="star">
-            Planning Servic
+            Planning Services
         </span>
         <span class="marquee-item">
             <img src="https://hod.gurenosay.org/wp-content/uploads/2025/09/animation.svg" alt="star">
@@ -65,7 +65,7 @@
         </span>
         <span class="marquee-item">
             <img src="https://hod.gurenosay.org/wp-content/uploads/2025/09/animation.svg" alt="star">
-            Planning Servic
+            Planning Services
         </span>
     </div>
 </div>

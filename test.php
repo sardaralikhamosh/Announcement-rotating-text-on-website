@@ -1,3 +1,170 @@
-<a class="custom-added-menu" href="tel:9496735966" style="display:block; text-align:right !important;">
-  949.673.5966
-</a>
+@font-face {
+font-family: Paragraph;
+src: url(https://static1.squarespace.com/static/68a8c4d7532312733c74954f/t/68b1e99b298dad194073c661/1756490139230/FuturaCyrillicLight.ttf)
+}
+P1 {
+  font-family: Paragraph;
+}
+
+/*below code is added by sardaralikhamosh@gmail.com for hiding the default header of squarespace*/
+/* Hide default Squarespace header */
+@media screen and (min-width:991px)
+{
+  .header, 
+.Header, 
+.site-header,
+  .sardar-mobile-header{
+  display: none !important;
+}
+  //added by sardar ali to remove conflict on mobile devices
+/*buttons bottom border*/
+body.primary-button-shape-underline #siteWrapper .sqs-button-element--primary:not(.ma-pricing-option-button){
+  border-bottom: 3px solid transparent;
+    border-image: linear-gradient(to right, #003F9F, #11BABF) 1;
+}
+
+/* custom facial */
+#block-9d11c7c3175e42d54861{
+height: 700px; 
+}
+
+/*hydrafacials*/
+#block-f47ea7598b82dcb2e41d{
+height: 900px; 
+}
+
+/*DMK*/
+#block-4062264095e91c111074{
+height: 700px; 
+}
+/*Massages*/
+#block-15f40004fb102af05d75{
+height: 700px; 
+}
+
+/*Facials*/
+#block-cc8a39c2ce781c65d740{ height: 900px;
+}
+
+/*Glacial*/
+#block-77bc05638ca1c148b86c{
+height: 900px; 
+}
+/*Microneedling*/
+#block-d5618be5a022c77f6139{
+height: 650px; 
+}
+/*Buccal*/
+#block-a3ec608a7648ce02ddd5{
+height: 800px; 
+}
+
+/*Virtual support*/
+#block-yui_3_17_2_1_1758225758406_4044{
+height: 500px; 
+}
+#block-yui_3_17_2_1_1756387231626_4706,
+div#block-3acb0944c249f3129d0b {
+    justify-content: center;
+}
+.product-meta .preFade.fadeIn {
+    padding: 10px 0;
+}
+  button.sqs-add-to-cart-button.sqs-suppress-edit-mode.sqs-editable-button.sqs-button-element--primary {
+    width: auto !important;
+}
+}
+//below code will apply on only mobile devices
+@media screen and (max-width:991px)
+{
+  .header, 
+.Header, 
+.site-header,
+  .sardar-custom-header{
+  display: none !important;
+}
+body.primary-button-shape-underline #siteWrapper .sqs-button-element--primary:not(.ma-pricing-option-button){
+  border-bottom: 3px solid transparent;
+    border-image: linear-gradient(to right, #003F9F, #11BABF) 1;
+}
+  div#yui_3_17_2_1_1759504379661_111 {
+    display: none;
+}
+ // added by saradr on 03 octuber 2024
+  div#yui_3_17_2_1_1759508062151_118 {
+    min-height: 300px !important;
+}
+ //below code is for menu font on mobile 
+ #header a .header-menu-nav-item-content,
+ #header .header-menu-nav-item a{
+  font-family: 'Archivo' !important;
+   size: 13px !important;
+   font-size: 4.5vmin !important;
+   letter-spacing: .2rem;
+   
+ 
+}
+ #header .header-menu-nav-wrapper,
+  #header .header-menu-nav-folder-content,
+  #header .header-menu-cta{
+    text-align: right;
+} 
+#header .header-menu-nav-folder-content {
+    justify-content: flex-start !important;
+}
+  #header .header-menu-cta {
+    padding-bottom: 100px;
+}
+  .product-detail h1.product-title.preFade.fadeIn {
+    line-height: 50px !important;
+}
+  .product-list .product-list-layout-container[data-product-list-layout="grid"] .product-list-item .product-list-item-link .product-list-title-price .product-list-item-price {
+    margin-top: 1rem !important;
+}
+  .product-detail h2.product-related-products-title {
+    color: #0677bb;
+    font-size: 35px;
+}
+  .product-detail {
+    padding-top: 63px;
+}
+ .product-detail .product-add-to-cart-layout-wrapper.add-to-cart-inline-md-up.add-to-cart-inline-md-down{
+    flex-direction: column !important;
+        align-items: start !important;
+      gap : 15px !important;
+  }
+//mobile ends here
+//footer code is below 
+footer .collectionlink-content .collectionlink-title a,
+footer sqs-html-content p,
+.sqsrte-text-color--black em,
+#block-e77557dd96e0ce8e087c .sqs-html-content p a,
+.custom-added-menu,
+footer .sqs-html-content p a{
+  font-family: 'Archivo' !important;
+  font-size: 12px !important;
+  font-weight: 200 !important;
+    text-transform:  !important;
+    letter-spacing: .2rem !important;
+    color: black;
+    text-decoration: none;
+}
+.custom-added-footer-text{
+  font-family: 'futura' !important;
+  font-weight: 200 !important;
+  
+}
+
+//for cart page background
+main#page {
+    background: #fff;
+}
+body{
+  background-color: #fff !important;
+}
+
+
+
+
+
+
